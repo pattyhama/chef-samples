@@ -1,6 +1,6 @@
 name             'git'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'pattyhama'
+maintainer_email 'strodr@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures git'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
