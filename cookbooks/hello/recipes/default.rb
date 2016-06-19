@@ -7,5 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-log "Hello, Chef!"
-
+log 'Hello, Chef!'
