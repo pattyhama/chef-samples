@@ -8,7 +8,7 @@
 #
 
 %W{ git foodcritic }.each do |pkg|
-  package "#{pkg}" do
+  package pkg do
     action [ :install ]
   end
 end
