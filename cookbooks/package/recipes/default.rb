@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: git
+# Cookbook Name:: package
 # Recipe:: default
 #
 # Copyright 2016, YOUR_COMPANY_NAME
