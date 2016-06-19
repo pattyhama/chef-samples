@@ -1,4 +1,4 @@
-name             'git'
+name             'package'
 maintainer       'pattyhama'
 maintainer_email 'strodr@gmail.com'
 license          'All rights reserved'
