@@ -7,6 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'git' do
-  action :install
+%W{ git foodcritic }.each do |pkg|
+  package "#{pkg}" do
+    action [ :install ]
+  end
 end
+
