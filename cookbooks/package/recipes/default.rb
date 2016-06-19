@@ -13,3 +13,10 @@
   end
 end
 
+%w(rubocop).each do |package|
+  gem_package package do
+    gem_binary '/usr/bin/gem'
+    version '0.40.0'
+    action :install
+  end
+end
