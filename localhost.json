@@ -2,8 +2,12 @@
  "nginx" : {
 	"port" : 80
  },
+ "base" : {
+	"name-server" : "10.0.2.3"
+ },
  "run_list" : [
 	"recipe[hello]",
+        "recipe[base]",
 	"recipe[package]",
 	"recipe[nginx]"
  ]
