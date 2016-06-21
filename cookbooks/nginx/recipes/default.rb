@@ -8,6 +8,7 @@
 #
 
 package 'nginx' do
+  version '1.4.6-1ubuntu3.5'
   action :install
 end
 
