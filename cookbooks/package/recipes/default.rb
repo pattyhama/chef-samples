@@ -7,14 +7,18 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w(git foodcritic).each do |pkg|
-  package pkg do
-    action [:install]
-  end
+package 'git' do
+  action [:install]
+  version '1:1.9.1-1ubuntu0.3'
 end
 
-%w(rubocop).each do |package|
-  gem_package package do
+package 'foodcritic' do
+  action [:install]
+  version '3.0.3-1'
+end
+
+%w(rubocop).each do |pkg|
+  gem_package pkg do
     gem_binary '/usr/bin/gem'
     version '0.40.0'
     action :install
