@@ -9,8 +9,9 @@
 
 # cookbook_file "/etc/resolv.conf"
 
-template 'resolv.conf' do
-  path '/etc/resolv.conf'
+template '/etc/resolv.conf' do
+  action :create
+  manage_symlink_source true
   source 'resolv.conf.erb'
   owner 'root'
   group 'root'
