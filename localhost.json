@@ -8,6 +8,7 @@
  "run_list" : [
 	"recipe[hello]",
         "recipe[base]",
+        "recipe[base::route]",
 	"recipe[package]",
 	"recipe[nginx]"
  ]
