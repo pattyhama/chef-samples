@@ -10,9 +10,9 @@
 # cookbook_file "/etc/resolv.conf"
 
 template '/etc/resolv.conf' do
-  action :create
-  manage_symlink_source true
   source 'resolv.conf.erb'
+  manage_symlink_source true
+  action :create
   owner 'root'
   group 'root'
   mode 0644
