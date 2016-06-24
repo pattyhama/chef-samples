@@ -17,6 +17,11 @@ package 'foodcritic' do
   version '3.0.3-1'
 end
 
+package 'traceroute' do
+  action [:install]
+  version '1:2.0.20-0ubuntu0.1'
+end
+
 %w(rubocop).each do |pkg|
   gem_package pkg do
     gem_binary '/usr/bin/gem'
