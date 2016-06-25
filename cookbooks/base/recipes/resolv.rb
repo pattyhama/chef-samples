@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: base
-# Recipe:: default
+# Recipe:: resolv
 #
 # Copyright 2016, YOUR_COMPANY_NAME
 #

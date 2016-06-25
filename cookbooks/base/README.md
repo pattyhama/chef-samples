@@ -1,7 +1,10 @@
 base Cookbook
 =============
-This cookbook is for setting basic such as network settings.
+This cookbook is for base setting:
+ - DNS
+ - Network
 
+### Following are default description:
 Requirements
 ------------
 TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
