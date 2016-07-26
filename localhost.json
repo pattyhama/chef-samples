@@ -1,4 +1,7 @@
 {
+ "apache" : {
+	"hostname" : "localhost"
+ },
  "nginx" : {
 	"port" : 80
  },
@@ -6,10 +9,9 @@
 	"name-server" : "8.8.8.8"
  },
  "run_list" : [
-	"recipe[hello]",
+	"recipe[apache2]",
         "recipe[base::resolv]",
         "recipe[base::route]",
-	"recipe[package]",
-	"recipe[nginx]"
+	"recipe[package]"
  ]
 }
