@@ -22,6 +22,14 @@ package 'traceroute' do
   version '1:2.0.20-0ubuntu0.1'
 end
 
+package 'apache2' do
+  action [:install]
+end
+
+package 'links' do
+  action [:install]
+end
+
 %w(rubocop).each do |pkg|
   gem_package pkg do
     gem_binary '/usr/bin/gem'
