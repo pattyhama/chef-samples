@@ -2,9 +2,6 @@
  "apache" : {
 	"hostname" : "localhost"
  },
- "nginx" : {
-	"port" : 80
- },
  "base" : {
 	"name-server" : "8.8.8.8"
  },
